@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ * This script spanws in obstacles
+ */
 public class ObstacleSpawner : MonoBehaviour
 {
     #region Variables

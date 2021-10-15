@@ -2,7 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraFollow : MonoBehaviour
+/*
+ * This script allows the camera to follow the player on the z axis
+ */
+public class PlayerFollow : MonoBehaviour
 {
     #region Variables
     [Header("Horizontal Offset")]

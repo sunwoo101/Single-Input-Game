@@ -1,20 +1,22 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+/*
+ * This script handles the player score
+ */
 public class PlayerScore : MonoBehaviour
 {
     #region Variables
     [Header("References")]
     [SerializeField] Text scoreText;
+    int score;
     #endregion
 
     #region Update
     void Update()
     {
-        // Distance from start position and current position
-        float distance = Mathf.Round(transform.position.z);
-        // Set the score text to the current distance
-        scoreText.text = "Score: " + distance + "KM";
+        // Set the score text to the current score
+        scoreText.text = "Score: " + score + "KM";
     }
     #endregion
 }
